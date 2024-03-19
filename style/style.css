@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{margin: 0px;padding: 0px;}
+header,section{
+    width: 1270px;
+    margin: auto;
+    font-family: "Mulish", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.btn{
+    text-align: center;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+    background-color: #ff5400;
+    padding: 15px 10px;
+    color: white;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #ff2a00;
+}
+
+/* navbar */
+header#header {
+    padding: 20px 10px;
+    background: white;
+    /* box-shadow: 0px 0px 15px 5px #ddd; */
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    border-radius: 5px;
+    z-index: 10;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    font-weight: 500;
+}
+.menu ul li {
+    margin-left: 30px;
+}
+
+.menu ul li a:hover {
+    color: #ff5400;
+}
+.logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logo h3 {
+    margin-left: 10px;
+    font-weight: 800;
+}
+
+.logo h3 span {
+    color: #ff5400;
+}
+
+/* close  */
+
+/* top banner  */
+.top_banner{
+    background-image: url(../images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.banner {
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    text-align: center;
+}
+
+.banner_input {
+    background: lightblue;
+    padding: 25px 0px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.banner_input input {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.banner_content h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.banner_content p {
+    color: white;
+}
+
+/* close  */
+
+/* Popular Tours  */
+
+section.PopularTours {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.PTContent {
+    width: 50%;
+}
+
+.PTContent ol li {
+    list-style: disc;
+    width: 85%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.PTContent h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.PTContent ol {
+    margin-left: 45px;
+}
+
+.PTContent p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+
+/* close  */
+
+/* Choose Your Destination  */
+section.YourDestination {
+    margin-top: 70px;
+}
+.destinationContent {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.destinationContent h1 {
+    font-size: 30px;
+}
+
+.destinationContent p {
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+}
+.firstblock {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.secondblock {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.thirdblock {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+/* close  */
+.whyContent {
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.whyContent h1 {font-size: 30px;margin-bottom: 10px;}
+
+.whyContent p {
+    width: 50%;
+    margin: auto;
+}
+
+.detail-1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.detail-2 {
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    background: #ff000030;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+
+.details-1 {
+    background: #29cef63b;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+
+.details-2 {
+    background: #ffa50029;
+    padding: 20px 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+/* close  */
+
+.newsletter{
+    margin-top: 50px;
+    display: flex;
+
+}
+.newsletter-section {
+    
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+  }
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+button.btn {
+    width: 85%;
+}
+
+/* close  */
+
+footer {
+    width: 100% !important;
+    margin-top: 50px;
+    background-color: aliceblue ;
+    padding: 20px 0;
+    text-align: center;
+  }
+  footer img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .social-icons {
+    margin-bottom: 20px;
+  }
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .copyright {
+    font-size: 14px;
+  }
